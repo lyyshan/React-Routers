@@ -4,7 +4,8 @@ function Profile() {
   return (
     <div>
          <h1>This is My Profile.</h1>
-         <Link to="/" >Say Hello to Home</Link>
+         <Link to="/" >Say Hello to Home</Link><hr/>
+         <Link to="/Profile/More">say hi to More</Link>
     </div>
   )
 }
